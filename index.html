@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <aside>
+            <img src="src/side_img.jpg" alt="background image" id="background">
+            <img src="src/odin-lined.png" alt="logo" id="logo">
+            <span>Photo by <a href="https://unsplash.com/@lanirudhreddy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ANIRUDH</a> on <a href="https://unsplash.com/photos/black-and-silver-steel-pipe-on-brown-rock-3esjG-nlgyk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+        </aside>
+        <article>
+            <p>Create your account by filling in the form below with your full name, a valid email address, and a secure password. Make sure your password is at least 8 characters long and includes a number and a special character. You can also add your phone number to help with account recovery.</p>
+            <p> By signing up, you agree to our Terms of Service and Privacy Policy. Your information will be kept safe and confidential.</p>
+            <form action="">
+                <div class="data">
+                    <div id="right">
+                        <label for="name">First Name</label>
+                        <input type="text" required>
+                        <label for="email">Email</label>
+                        <input type="email" required>
+                        <label for="password">Password</label>
+                        <input type="password" required>
+                    </div>
+                    <div id="left">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" required>
+                        <label for="number">Phone Number</label>
+                        <input type="tel">
+                        <label for="confpassword">Confirm Password</label>
+                        <input type="password" required>
+                    </div>
+                </div>
+                <input type="submit" value="Create account">
+            </form>
+            <span>Already have an Account? <a href="">Log in</a></span>
+        </article>
+    </main>
+</body>
+</html>
