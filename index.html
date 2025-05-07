@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <title>Sign Up</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <aside>
             <img src="src/side_img.jpg" alt="background image" id="background">
-            <img src="src/odin-lined.png" alt="logo" id="logo">
+            <div id="logo_container"><img src="src/odin-lined.png" alt="logo" id="logo"><h1>ODIN</h1></div>
             <span>Photo by <a href="https://unsplash.com/@lanirudhreddy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ANIRUDH</a> on <a href="https://unsplash.com/photos/black-and-silver-steel-pipe-on-brown-rock-3esjG-nlgyk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
         </aside>
         <article>
@@ -18,21 +19,21 @@
             <form action="">
                 <div class="data">
                     <div id="right">
-                        <label for="name">First Name</label>
-                        <input type="text" required>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required>                      
                         <label for="email">Email</label>
-                        <input type="email" required>
+                        <input type="email" id="email" name="email" required>                      
                         <label for="password">Password</label>
-                        <input type="password" required>
-                    </div>
+                        <input type="password" id="password" name="password" required>
+                    </div>                      
                     <div id="left">
-                        <label for="lastname">Last Name</label>
-                        <input type="text" required>
-                        <label for="number">Phone Number</label>
-                        <input type="tel">
-                        <label for="confpassword">Confirm Password</label>
-                        <input type="password" required>
-                    </div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>                      
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number">                      
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>                      
                 </div>
                 <input type="submit" value="Create account">
             </form>
