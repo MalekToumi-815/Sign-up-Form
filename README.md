@@ -25,7 +25,8 @@ A responsive and accessible sign-up form designed as part of The Odin Project cu
 1. Clone the repository:
     ```bash
     git clone https://github.com/MalekToumi-815/Sign-up-Form.git
-    Open index.html in your browser
+
+Open index.html in your browser
 
 ## Project Structure
 sign-up-form/
