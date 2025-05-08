@@ -59,12 +59,13 @@ p{
     width: 80%;
 }
 form{
-    height: 40%;
+    height: 50%;
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
 }
 .data{
     height: 80%;
@@ -83,20 +84,33 @@ form{
     justify-content: space-between;
     justify-content: center;
 }
-#data input{
-    border-radius: 5px;
-    height: 40px;
+.data input{
+    height: 27px;
     width: 80%;
 }
 input[type="submit"]{
     background-color: #349eb2;
     border-radius: 5px;
-    height: 40px;
-    width: 100px;
+    height: 50px;
+    width: 120px;
+    transition: all 0.5s ease;
+}
+input[type="submit"]:hover{
+    transform: scale(1.2) translateY(-2px);
 }
 aside a{
     color: black;
 }
 article a{
     color: #5574a6;
+}
+.data input:valid{
+    border-radius: 5px;
+    border: solid #349eb2;
+    outline: none;
+}
+.data input:invalid{
+    border-radius: 5px;
+    border: solid #622e5f;
+    outline: none;
 }
